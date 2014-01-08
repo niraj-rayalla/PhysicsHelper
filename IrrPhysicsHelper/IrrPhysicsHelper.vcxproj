@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DefinitionsInclude.h" />
+    <ClInclude Include="General\CustomSceneNodeManager.h" />
+    <ClInclude Include="General\GeneralClasses.h" />
+    <ClInclude Include="General\GeneralFunctions.h" />
+    <ClInclude Include="General\GridSceneNode.h" />
+    <ClInclude Include="General\List.h" />
+    <ClInclude Include="General\ThreeDArrow.h" />
+    <ClInclude Include="General\ThreeDArrowList.h" />
+    <ClInclude Include="General\ThreeDGraph.h" />
+    <ClInclude Include="General\ThreeDPlane.h" />
+    <ClInclude Include="GUI Enviornment\BasicDynamicObjectIrrlichtGUI.h" />
+    <ClInclude Include="GUI Enviornment\Fonts\CGUITTFont.h" />
+    <ClInclude Include="GUI Enviornment\Fonts\irrUString.h" />
+    <ClInclude Include="GUI Enviornment\PhysicsHelperGUIEnviornment.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="IrrlichtEventReceiver.h" />
+    <ClInclude Include="IrrlichtInclude.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Math\MathExpression.h" />
+    <ClInclude Include="Physics Engine\Constraints\Constraint.h" />
+    <ClInclude Include="Physics Engine\Forces\Force.h" />
+    <ClInclude Include="Physics Engine\IrrlichtToBulletConnector.h" />
+    <ClInclude Include="Physics Engine\IrrlichtToBulletObjects.h" />
+    <ClInclude Include="Physics Engine\Physics Object\PathDrawableObject.h" />
+    <ClInclude Include="Physics Engine\Physics Object\PhysicsObject.h" />
+    <ClInclude Include="Physics Engine\PhysicsEngine.h" />
+    <ClInclude Include="Physics Engine\PhysicsEngineDefinitions.h" />
+    <ClInclude Include="Physics Engine\PhysicsEngineInclude.h" />
+    <ClInclude Include="Physics Engine\RecordableEntity.h" />
+    <ClInclude Include="Physics Engine\Springs\Spring.h" />
+    <ClInclude Include="Physics Engine\Springs\SpringSceneNode.h" />
+    <ClInclude Include="PhysicsHelperManager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Serialization\Serialization.h" />
+    <ClInclude Include="Shaders\GraphingShader.h" />
+    <ClInclude Include="Simulation\BasicMotionSimulation.h" />
+    <ClInclude Include="Simulation\CenterOfMassSimulation.h" />
+    <ClInclude Include="Simulation\CoulombLawSimulation.h" />
+    <ClInclude Include="Simulation\GraphingSimulation.h" />
+    <ClInclude Include="Simulation\GravitationSimulation.h" />
+    <ClInclude Include="Simulation\LightSimulation.h" />
+    <ClInclude Include="Simulation\PendulumSimulation.h" />
+    <ClInclude Include="Simulation\PlaygroundSimulation.h" />
+    <ClInclude Include="Simulation\Simulation.h" />
+    <ClInclude Include="Simulation\SimulationInclude.h" />
+    <ClInclude Include="Simulation\SpringSimulation.h" />
+    <ClInclude Include="Simulation\VectorSimulation.h" />
+    <ClInclude Include="UI\CenterOfMass\CenterOfMassAddDialog.h" />
+    <ClInclude Include="UI\CenterOfMass\CenterOfMassSideControl.h" />
+    <ClInclude Include="UI\ChartFrame\ChartFrame.h" />
+    <ClInclude Include="UI\Coulomb\CoulombAddDialog.h" />
+    <ClInclude Include="UI\Coulomb\CoulombSideControl.h" />
+    <ClInclude Include="UI\Graphing\GraphingPanel.h" />
+    <ClInclude Include="UI\Gravitation\GravitationAddDialog.h" />
+    <ClInclude Include="UI\Gravitation\GravitationSideControl.h" />
+    <ClInclude Include="UI\Pendulum\PendulumAddDialog.h" />
+    <ClInclude Include="UI\Pendulum\PendulumChangeAccelerationDialog.h" />
+    <ClInclude Include="UI\Pendulum\PendulumSideControl.h" />
+    <ClInclude Include="UI\Playground\PlaygroundAddMultipleObjectsDialog.h" />
+    <ClInclude Include="UI\Playground\PlaygroundSideControl.h" />
+    <ClInclude Include="UI\SimulationSideControl.h" />
+    <ClInclude Include="UI\UIController.h" />
+    <ClInclude Include="UI\UIInclude.h" />
+    <ClInclude Include="UI\Vector\VectorAddDialog.h" />
+    <ClInclude Include="UI\Vector\VectorSideControl.h" />
+    <ClInclude Include="UI\WxIrrMenuBar.h" />
+    <ClInclude Include="UI\WxIrrToolbars.h" />
+    <ClInclude Include="WxIrrKeyboardManager.h" />
+    <ClInclude Include="WxIrrMainWindow.h" />
+    <ClInclude Include="WxIrrRenderWindow.h" />
+    <ClInclude Include="WxIrrViewport.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="General\CustomSceneNodeManager.cpp" />
+    <ClCompile Include="General\GridSceneNode.cpp" />
+    <ClCompile Include="General\ThreeDArrow.cpp" />
+    <ClCompile Include="General\ThreeDArrowList.cpp" />
+    <ClCompile Include="General\ThreeDGraph.cpp" />
+    <ClCompile Include="General\ThreeDPlane.cpp" />
+    <ClCompile Include="GUI Enviornment\BasicDynamicObjectIrrlichtGUI.cpp" />
+    <ClCompile Include="GUI Enviornment\Fonts\CGUITTFont.cpp" />
+    <ClCompile Include="GUI Enviornment\PhysicsHelperGUIEnviornment.cpp" />
+    <ClCompile Include="IrrlichtInclude.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Math\MathExpression.cpp" />
+    <ClCompile Include="Physics Engine\Constraints\Constraint.cpp" />
+    <ClCompile Include="Physics Engine\IrrlichtToBulletConnector.cpp" />
+    <ClCompile Include="Physics Engine\IrrlichtToBulletObjects.cpp" />
+    <ClCompile Include="Physics Engine\Physics Object\PathDrawableObject.cpp" />
+    <ClCompile Include="Physics Engine\Physics Object\PhysicsObject.cpp" />
+    <ClCompile Include="Physics Engine\PhysicsEngine.cpp" />
+    <ClCompile Include="Physics Engine\RecordableEntity.cpp" />
+    <ClCompile Include="Physics Engine\Springs\Spring.cpp" />
+    <ClCompile Include="Physics Engine\Springs\SpringSceneNode.cpp" />
+    <ClCompile Include="Serialization\Serialization.cpp" />
+    <ClCompile Include="Shaders\GraphingShader.cpp" />
+    <ClCompile Include="Simulation\BasicMotionSimulation.cpp" />
+    <ClCompile Include="Simulation\CenterOfMassSimulation.cpp" />
+    <ClCompile Include="Simulation\CoulombLawSimulation.cpp" />
+    <ClCompile Include="Simulation\GraphingSimulation.cpp" />
+    <ClCompile Include="Simulation\GravitationSimulation.cpp" />
+    <ClCompile Include="Simulation\LightSimulation.cpp" />
+    <ClCompile Include="Simulation\PendulumSimulation.cpp" />
+    <ClCompile Include="Simulation\PlaygroundSimulation.cpp" />
+    <ClCompile Include="Simulation\Simulation.cpp" />
+    <ClCompile Include="Simulation\SpringSimulation.cpp" />
+    <ClCompile Include="Simulation\VectorSimulation.cpp" />
+    <ClCompile Include="UI\CenterOfMass\CenterOfMassAddDialog.cpp" />
+    <ClCompile Include="UI\CenterOfMass\CenterOfMassSideControl.cpp" />
+    <ClCompile Include="UI\ChartFrame\ChartFrame.cpp" />
+    <ClCompile Include="UI\Coulomb\CoulombAddDialog.cpp" />
+    <ClCompile Include="UI\Coulomb\CoulombSideControl.cpp" />
+    <ClCompile Include="UI\Graphing\GraphingPanel.cpp" />
+    <ClCompile Include="UI\Gravitation\GravitationAddDialog.cpp" />
+    <ClCompile Include="UI\Gravitation\GravitationSideControl.cpp" />
+    <ClCompile Include="UI\Pendulum\PendulumAddDialog.cpp" />
+    <ClCompile Include="UI\Pendulum\PendulumChangeAccelerationDialog.cpp" />
+    <ClCompile Include="UI\Pendulum\PendulumSideControl.cpp" />
+    <ClCompile Include="UI\Playground\PlaygroundAddMultipleObjectsDialog.cpp" />
+    <ClCompile Include="UI\Playground\PlaygroundSideControl.cpp" />
+    <ClCompile Include="UI\SimulationSideControl.cpp" />
+    <ClCompile Include="UI\UIController.cpp" />
+    <ClCompile Include="UI\Vector\VectorAddDialog.cpp" />
+    <ClCompile Include="UI\Vector\VectorSideControl.cpp" />
+    <ClCompile Include="UI\WxIrrMenuBar.cpp" />
+    <ClCompile Include="UI\WxIrrToolbars.cpp" />
+    <ClCompile Include="WxIrrMainWindow.cpp" />
+    <ClCompile Include="WxIrrViewport.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{55972AE1-1830-4E43-8686-650BF71059E9}</ProjectGuid>
+    <RootNamespace>IrrPhysicsHelper</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Niraj\PhysicsHelper\IrrPhysicsHelper\IrrPhysicsHelper\IrrFreeType\ft219\freetype-2.1.9\include;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\wxFreeChart\freechart-1.6\freechart\include;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\wxFreeChart\freechart-1.6\freechart\include\wx;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\IrrPhysicsHelper\Bullet Physics\bullet-2.80-rev2531\bullet-2.80-rev2531\src;C:\wxWidgets-2.9.3\include;C:\wxWidgets-2.9.3\lib\vc_lib\mswud;C:\Niraj\game items\irrlicht-1.7.3\irrlicht-1.7.3\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Niraj\game items\irrlicht-1.7.3\irrlicht-1.7.3\lib\Win32-visualstudio;C:\Niraj\game items\irrlicht-1.7.3\irrlicht-1.7.3\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Niraj\PhysicsHelper\IrrPhysicsHelper\IrrPhysicsHelper\IrrFreeType\ft219\freetype-2.1.9\include;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\wxFreeChart\freechart-1.6\freechart\include;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\wxFreeChart\freechart-1.6\freechart\include\wx;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\IrrPhysicsHelper\Bullet Physics\bullet-2.80-rev2531\bullet-2.80-rev2531\src;C:\wxWidgets-2.9.3\include;C:\wxWidgets-2.9.3\lib\vc_lib\mswud;C:\Niraj\game items\irrlicht-1.7.3\irrlicht-1.7.3\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include</IncludePath>
+    <LibraryPath>C:\Niraj\game items\irrlicht-1.7.3\irrlicht-1.7.3\lib\Win32-visualstudio;C:\Niraj\game items\irrlicht-1.7.3\irrlicht-1.7.3\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;_UNICODE;_WINDOWS;NOPCH;_CRT_SECURE_NO_WARNINGS;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Niraj\PhysicsHelper\IrrPhysicsHelper\IrrPhysicsHelper\IrrFreeType\ft219\freetype-2.1.9\objs;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\wxFreeChart\freechart-1.6\freechart\lib\vc_lib;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\IrrPhysicsHelper\Bullet Physics\bullet-2.80-rev2531\bullet-2.80-rev2531\lib;C:\wxWidgets-2.9.3\lib\vc_lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype219.lib;wxcode_msw28ud_freechart.lib;BulletDynamics.lib;BulletCollision.lib;LinearMath.lib;wxmsw29ud_aui.lib;wxmsw29ud_html.lib;wxmsw29ud_adv.lib;wxmsw29ud_core.lib;wxbase29ud_xml.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;_UNICODE;_WINDOWS;NOPCH;_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>freetype219.lib;wxcode_msw28u_freechart.lib;BulletDynamics.lib;BulletCollision.lib;LinearMath.lib;wxmsw29u_aui.lib;wxmsw29u_html.lib;wxmsw29u_adv.lib;wxmsw29u_core.lib;wxbase29u_xml.lib;wxbase29u.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Niraj\PhysicsHelper\IrrPhysicsHelper\IrrPhysicsHelper\IrrFreeType\ft219\freetype-2.1.9\objs;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\wxFreeChart\freechart-1.6\freechart\lib\vc_lib;C:\Niraj\PhysicsHelper\IrrPhysicsHelper\IrrPhysicsHelper\Bullet Physics\bullet-2.80-rev2531\bullet-2.80-rev2531\lib;C:\wxWidgets-2.9.3\lib\vc_lib</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
